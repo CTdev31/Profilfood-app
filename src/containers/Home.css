@@ -1,0 +1,45 @@
+
+.Home .Caroussel{
+  height: 700px;
+  background-color: #FBFBFB
+}
+.Home .lander {
+  padding: 40px 0;
+  text-align: center;
+  width: 50%;
+  float:left;
+  margin-top: 150px;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.color-E58204{background-color:#E58204;}
+.Home .lander p {
+  margin-top: 30px;
+  color: #99;
+  margin-bottom: 30px;
+
+}
+
+.Home .lander-2 {
+  padding: 40px 0;
+  text-align: center;
+  width: 50%;
+  float:right;
+}
+
+.Home .lander-2 img{
+width: 60%;
+height: auto;
+border-radius: 30px;
+
+}
+.Home .Download{
+  height: 100px;
+}
+.Home .Download .bold-p{
+  font-weight:bold;
+  margin-top: 20px;
+}
