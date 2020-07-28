@@ -6,6 +6,7 @@ body {
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 50px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", serif;
@@ -28,7 +29,10 @@ input[type=file] {
 
 
 
+.orange{
+  color: #E58204;
 
+}
 
 .form-ajout_societe{
 float: right;

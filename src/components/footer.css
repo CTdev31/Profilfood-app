@@ -1,0 +1,69 @@
+.footer{
+  background-color: #FAFAFA;
+  margin-top:80px;
+}
+
+.title{
+  color:#E58204;
+  font-weight: bold;
+  font-size: 1.1em
+
+}
+
+.col-right{
+  margin-top: 10px;
+  float: right;
+}
+
+.col-left{
+  margin-top: 10px;
+
+  float: left;
+}
+
+.col-right ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.col-left p{
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+}
+
+.footer-copyright{
+  margin-top: 20px;
+
+}
+
+h5{
+  margin-bottom: 25px;
+}
+
+.mailto-img{
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.facebook-img{
+  width: 35px;
+  height: auto;
+}
+
+.instagram-img{
+  width: 35px;
+  height: auto;
+}
+.facebook-a{
+  margin-left: 20px
+}
+
+.instagram-a{
+  margin-left: 20px;
+}
+
+.list-unstyled{
+  margin-top: 5px;
+}

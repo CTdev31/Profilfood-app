@@ -1,45 +1,117 @@
 
-.Home .Caroussel{
-  height: 700px;
-  background-color: #FBFBFB
+.Home{
+  height:auto;
+
 }
 .Home .lander {
   padding: 40px 0;
-  text-align: center;
-  width: 50%;
+  text-align: left;
+  width: 40%;
   float:left;
   margin-top: 150px;
+  margin-left: 10%;
 }
 
-.Home .lander h1 {
+h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 .color-E58204{background-color:#E58204;}
-.Home .lander p {
+p {
   margin-top: 30px;
   color: #99;
   margin-bottom: 30px;
 
 }
 
-.Home .lander-2 {
+
+.Home .lander-2{
   padding: 40px 0;
   text-align: center;
   width: 50%;
   float:right;
 }
 
+.Home .lander-4{
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 50%;
+  float:right;
+}
+
+.Home .lander-3 {
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+
+  text-align: center;
+  width: 50%;
+  float:left;
+}
+
 .Home .lander-2 img{
-width: 60%;
+width: 300px;
 height: auto;
 border-radius: 30px;
 
 }
 .Home .Download{
-  height: 100px;
+  height: auto;
+  margin-top: 80px;
 }
+
+.Home .Download h1{
+  margin-bottom: 25px;
+}
+
+.center-logo{
+  width: 70px;
+  height: auto;
+}
+
 .Home .Download .bold-p{
   font-weight:bold;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+.Questions{
+  margin-top: 180px;
+  background-color: #FAFAFA;
+
+}
+
+.main-img-aide{
+  width: 250px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.left-img-aide{
+  width: 180px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.right-img-aide{
+  width: 180px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.faq-appli{
+  overflow: auto;
+}
+
+.recette-aliment{
+  overflow: auto;
+  background-color: #FAFAFA
+}
+
+.left-img-aliment{
+  width: 40%;
+  height: auto;
 }

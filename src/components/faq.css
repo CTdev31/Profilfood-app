@@ -1,0 +1,53 @@
+.faqHeader {
+    font-size: 27px;
+    margin: 40px;
+}
+
+.panel-group{
+padding-top: 20px;
+height: auto;
+margin-bottom: 100px;
+background-color: #FAFAFA;
+
+}
+
+h2{
+  font-stretch: condensed;
+  font-weight: bold;
+  color: #E58204;
+
+}
+
+.generalHeader{
+  margin-top: 50px;
+}
+
+
+.panel-heading [data-toggle="collapse"]:after {
+
+    content: "\0023F5"; /* "play" icon */
+    float: right;
+    color: #E58204;
+    font-size: 25px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+
+
+}

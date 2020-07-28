@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  padding-right: 0;
+  margin-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
 }
 
 .App-logo {
@@ -10,11 +15,37 @@
   float: left;
   height:50px;
   width: auto;
-  padding-right: 20px;
+  padding-right: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
+  margin-left: 15%;
 }
 
+.navbar
+{
+margin-bottom: 3px;
+margin-top:0;
+background-color: #FFFFFF;
+border-bottom: 1mm ridge rgb(255, 255, 255, .6);
+}
+
+.active a{
+  color: #FAFAFA !important;
+  background-color: #E58204 !important;
+}
+.item-nav a:focus{
+  color: #FAFAFA !important;
+  background-color: #E58204 !important;}
+.item-nav a:active{
+  color: #F1F1F1 !important;
+  background-color: #E58204 !important;
+
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+
+}
 
 a.main-title.navbar-brand{
   line-height: 50px;
@@ -23,6 +54,7 @@ a.main-title.navbar-brand{
   padding-bottom: 0px;
   font-size: 20px;
   color: #E58204;
+  width: 200px;
 }
 
 
