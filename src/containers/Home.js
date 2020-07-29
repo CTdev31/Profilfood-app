@@ -2,10 +2,8 @@ import React from "react";
 import "./Home.css";
 import googlePlay from "../images/btn-google-play.jpg";
 
-import Routes from "../Routes";
 import { Link } from "react-router-dom";
 import Carousel from "../components/carousel"
-import FAQ from "../components/faq"
 
 import ScreenshotAide from "../images/Screenshot_Aide.png";
 import ScreenshotAide_1 from "../images/Screenshot_Aide_1.png";
@@ -31,6 +29,13 @@ export default function Home() {
       </div>
 
       <div className = "faq-appli">
+      <div className="lander-2-Questions">
+        <h1>Des réponses à toutes vos questions</h1>
+        <p>Pour maximiser votre apprentissage avec <span class="orange">ProfilFood</span>, plusieurs sections d'aide sont à votre diposition dans l'application.  <br/>
+        La <Link to="/faq">foire aux questions</Link> regroupant les questions les plus rencontrées est également là pour vous guider. <br/> Enfin, si une réponse vous manque, posez nous votre question et on y répondra.</p>
+
+      </div>
+
         <div className="lander-3">
         <img className="left-img-aide" src={ScreenshotAide_1} alt = "Exemple 1 - Aide" />
         <img className="main-img-aide" src={ScreenshotAide} alt = "Aide en ligne" />
@@ -38,20 +43,15 @@ export default function Home() {
 
         </div>
 
-        <div className="lander-2 Questions">
-          <h1>Des réponses à toutes vos questions</h1>
-          <p>Pour maximiser votre apprentissage avec <span class="orange">ProfilFood</span>, plusieurs sections d'aide sont à votre diposition dans l'application.  <br/>
-          La <a href = "./faq">foire aux questions</a> regroupant les questions les plus rencontrées est également là pour vous guider. <br/> Enfin, si une réponse vous manque, posez nous votre question et on y répondra.</p>
 
-        </div>
       </div>
 
 
       <div className = "recette-aliment">
-        <div className="lander-3 aliment">
+        <div className="lander-3-aliment">
         <h1>Des ingrédients <span class="orange">notés</span> pour <span class="orange">vous</span></h1>
         <p>Chaque personne est <span class="orange">unique</span>, la nourriture de l'un est le poison de l'autre. Alors pour vous aidez à trouver les aliments qui vous corresponde, nous les avons notés selon plusieurs facteurs liés à votre profil.
-        <br/>Découvrez quels sont ceux qui s'adaptent le mieux à votre profil !</p>
+        <br/>Découvrez quels sont ceux qui s'adaptent le mieux à votre constitution !</p>
 
         <img className="left-img-aliment" src={ScreenshotAliment} alt = "Notation des aliments selon votre profil" />
 

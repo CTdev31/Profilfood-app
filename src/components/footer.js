@@ -5,35 +5,36 @@ import Mailto from "../images/mailto.png";
 import InstagramIMG from "../images/instagram-img.png";
 import FacebookIMG from "../images/facebook-img.png";
 
+import { Link } from "react-router-dom";
 
 
-
-const FooterPage = () => {
+class FooterPage extends React.Component {
+  render() {
   return (
     <MDBFooter color="blue" className="footer">
-      <MDBContainer fluid className="text-center text-md-left">
+      <MDBContainer fluid  className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="6 col-right">
+          <MDBCol md="6 col-right" className="info-footer">
           <h5 className="title">Informations</h5>
           <ul>
             <li className="list-unstyled">
-              <a href="/faq">Foire aux questions</a>
+                <Link to="/faq">Foire aux questions</Link>
             </li>
             <li className="list-unstyled">
-              <a href="/cgu">Conditions générales d'utilisation</a>
+                <Link to="/cgu">Conditions générales d'utilisation</Link>
             </li>
             <li className="list-unstyled">
-              <a href="/charte">Charte de confidentialité</a>
+              <Link to="/charte">Charte de confidentialité</Link>
             </li>
 
           </ul>
           </MDBCol>
-          <MDBCol md="6 col-left">
+          <MDBCol md="6 col-left" className="contact-footer">
 
             <h5 className="title">ProfilFood - Application mobile</h5>
             <p>
             <img className="mailto-img" src={Mailto} alt = "mailto" />
-               contact@profilfood.com
+               <a href="mailto:contact@profilfood.com">contact@profilfood.com</a>
             </p>
 
             <p> Suivez-nous !
@@ -56,6 +57,7 @@ const FooterPage = () => {
       </div>
     </MDBFooter>
   );
+}
 }
 
 export default FooterPage;

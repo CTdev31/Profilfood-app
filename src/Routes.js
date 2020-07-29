@@ -6,13 +6,16 @@ import Charte from "./components/charte";
 import Cgu from "./components/cgu";
 
 import NotFound from "./containers/NotFound";
-
+import ScrollToTop from "./scrollToTop";
 
 
 export default function Routes() {
   return (
+    <ScrollToTop>
+
     <Switch>
-      <Route path="/home" exact component={Home} />
+
+      <Route path="/" exact component={Home} />
 
       <Route path="/faq" exact component={Faq} />
       <Route path="/charte" exact component={Charte} />
@@ -22,5 +25,7 @@ export default function Routes() {
 
 
     </Switch>
+    </ScrollToTop>
+
   );
 }

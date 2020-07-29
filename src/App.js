@@ -19,13 +19,13 @@ function App(props) {
       <Navbar  className="navbar-form navbar-fixed-top" responsive fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/Home" className = "main-title" > <img src={logo} alt = "" className = "small-logo"/> ProfilFood  </Link>
+            <Link to="/" className = "main-title" > <img src={logo} alt = "" className = "small-logo"/> ProfilFood  </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <LinkContainer to="/Home" id="nav-accueil">
+            <LinkContainer to="/" id="nav-accueil">
               <NavItem className = "item-nav">Accueil</NavItem>
             </LinkContainer>
 
@@ -45,6 +45,8 @@ function App(props) {
       </Navbar>
       <Routes />
       <FooterPage/>
+
+
     </div>
   );
 }

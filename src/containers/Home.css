@@ -3,14 +3,7 @@
   height:auto;
 
 }
-.Home .lander {
-  padding: 40px 0;
-  text-align: left;
-  width: 40%;
-  float:left;
-  margin-top: 150px;
-  margin-left: 10%;
-}
+
 
 h1 {
   font-family: "Open Sans", sans-serif;
@@ -25,40 +18,20 @@ p {
 }
 
 
-.Home .lander-2{
-  padding: 40px 0;
-  text-align: center;
-  width: 50%;
-  float:right;
-}
 
-.Home .lander-4{
-  padding-top: 80px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-  width: 50%;
-  float:right;
-}
 
-.Home .lander-3 {
-  padding-top: 80px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
 
-  text-align: center;
-  width: 50%;
-  float:left;
-}
+
+
 
 .Home .lander-2 img{
-width: 300px;
 height: auto;
 border-radius: 30px;
 
 }
+
+
+
 .Home .Download{
   height: auto;
   margin-top: 80px;
@@ -78,40 +51,427 @@ border-radius: 30px;
   margin-top: 50px;
 }
 
-.Questions{
-  margin-top: 180px;
+.lander-2-Questions{
   background-color: #FAFAFA;
-
 }
 
 .main-img-aide{
-  width: 250px;
   height: auto;
   border-radius: 30px;
 }
 
 .left-img-aide{
-  width: 180px;
   height: auto;
   border-radius: 30px;
 }
 
 .right-img-aide{
-  width: 180px;
   height: auto;
   border-radius: 30px;
 }
 
-.faq-appli{
-  overflow: auto;
-}
+
 
 .recette-aliment{
   overflow: auto;
-  background-color: #FAFAFA
 }
 
 .left-img-aliment{
-  width: 40%;
   height: auto;
+}
+
+
+
+@media screen and (min-width:320px){
+  h1 {
+font-size: 1.6em; }
+
+.faq-appli{
+  overflow: hidden;
+}
+
+  .Home .lander {
+    padding-bottom: 0px;
+    text-align: center;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .Home .lander-2{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .Home .lander-2 img{
+  width: 250px;
+  }
+
+  .Home .lander-2-Questions{
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    width: 90%;
+    padding-bottom: 30px;
+  }
+
+  .Home .lander-3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    width: 90%;
+    background-color: #FAFAFA
+
+  }
+
+  .Home .lander-3-aliment
+  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    width: 90%;
+    background-color: #FAFAFA
+  }
+
+  .main-img-aide{
+    width: 220px;
+
+  }
+
+  .left-img-aide{
+    visibility: hidden;
+width: 0;
+  }
+
+  .right-img-aide{
+    visibility: hidden;
+width: 0;
+  }
+
+  .left-img-aliment{
+    width: 220px;
+  }
+
+
+
+  .Home .lander-4{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 90%;
+    background-color: #FAFAFA
+
+  }
+
+  .recette-aliment{
+    background-color: #FFFFFF
+  }
+}
+
+@media screen and (min-width:480px){
+
+
+  .main-img-aide{
+    width: 180px;
+
+  }
+
+  .left-img-aide{
+    width: 120px;
+    visibility:visible;
+  }
+
+  .right-img-aide{
+    width: 120px;
+    visibility:visible;
+
+  }
+
+}
+
+@media screen and (min-width:768px){
+  h1 {
+font-size: 1.9em;
+}
+.faq-appli{
+  overflow: auto;
+}
+  .Home .lander {
+    padding: 40px 0;
+    text-align: left;
+    width: 40%;
+    float:left;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+  }
+
+  .Home .lander-2{
+    padding: 40px 0;
+    text-align: center;
+    width: 25%;
+    float:right;
+    margin-right: 15%;
+  }
+
+  .Home .lander-2 img{
+  width: 200px;
+  }
+
+  .Home .lander-2-Questions{
+    margin-top: 80px;
+    padding: 46px 0;
+    text-align: center;
+    width: 50%;
+    float:right;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-right: 3%;
+height: 454px;
+
+
+
+  }
+
+  .Home .lander-3 {
+    height: 454px;
+
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+
+    text-align: center;
+    width: 50%;
+    float:left;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .main-img-aide{
+    width: 220px;
+
+  }
+
+  .left-img-aide{
+    width: 20px;
+    visibility: hidden;
+  }
+
+  .right-img-aide{
+    width: 20px;
+    visibility: hidden;
+  }
+
+  .left-img-aliment{
+    width: 250px;
+  }
+
+  .Home .lander-3-aliment
+  {
+    margin-top: 100px;
+
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 80px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Home .lander-4{
+    margin-top: 100px;
+
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 80px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .recette-aliment{
+    background-color: #FFFFFF
+  }
+}
+
+@media screen and (min-width:860px){
+  .Home .lander-2 img{
+  width: 200px;
+  }
+  .left-img-aliment{
+    width: 280px;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .Home .lander-2 img{
+  width: 250px;
+  }
+  .main-img-aide{
+    width: 170px;
+
+  }
+
+  .left-img-aide{
+    width: 120px;
+    visibility:visible;
+  }
+
+  .right-img-aide{
+    width: 120px;
+    visibility:visible;
+
+  }
+
+  .left-img-aliment{
+    width: 280px;
+  }
+
+
+}
+
+@media screen and (min-width:1280px){
+  .Home .lander-2 img{
+  width: 250px;
+  }
+.Home .lander-3{
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+.Home .lander-2-Questions{
+  padding: 30px 0;
+  text-align: center;
+  padding-right: 3%;
+  height: auto;
+}
+
+  .Home .lander-3-aliment
+  {
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 50%;
+    float:left;
+  }
+
+  .Home .lander-4{
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 50%;
+    float:right;
+  }
+
+  .recette-aliment{
+    background-color: #FAFAFA
+  }
+
+  .main-img-aide{
+    width: 180px;
+  }
+
+  .left-img-aide{
+    width: 130px;
+  }
+
+  .right-img-aide{
+    width: 130px;
+  }
+  .left-img-aliment{
+    width: 260px;
+  }
+}
+
+@media screen and (min-width:1400px){
+  .Home .lander-2 img{
+  width: 250px;
+  }
+  .left-img-aliment{
+    width: 300px;
+  }
+  .main-img-aide{
+    width: 200px;
+  }
+
+  .left-img-aide{
+    width: 140px;
+  }
+
+  .right-img-aide{
+    width: 140px;
+  }
+}
+
+@media screen and (min-width:1600px){
+  .Home .lander-2 img{
+  width: 300px;
+  }
+  .Home .lander {
+    padding: 40px 0;
+    margin-top: 150px;
+
+  }
+  .main-img-aide{
+    width: 200px;
+  }
+
+  .left-img-aide{
+    width: 150px;
+  }
+
+  .right-img-aide{
+    width: 150px;
+  }
+  .left-img-aliment{
+    width: 300px;
+  }
+}
+
+@media screen and (min-width:1800px){
+  .Home .lander-2 img{
+  width: 300px;
+  }
+  .left-img-aliment{
+    width: 320px;
+  }
+  .main-img-aide{
+    width: 220px;
+  }
+
+  .left-img-aide{
+    width: 170px;
+  }
+
+  .right-img-aide{
+    width: 170px;
+  }
 }
