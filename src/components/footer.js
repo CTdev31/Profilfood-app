@@ -9,7 +9,11 @@ import { Link } from "react-router-dom";
 
 
 class FooterPage extends React.Component {
-  render() {
+  constructor(props) {
+     super(props); // Pour faire passer les méthode du composant parent
+}
+
+    render() {
   return (
     <MDBFooter color="blue" className="footer">
       <MDBContainer fluid  className="text-center text-md-left">
@@ -18,13 +22,13 @@ class FooterPage extends React.Component {
           <h5 className="title">Informations</h5>
           <ul>
             <li className="list-unstyled">
-                <Link to="/faq">Foire aux questions</Link>
+                <Link onClick={()=>{this.props.handleClickOtherLink();}} to="/faq">Foire aux questions</Link>
             </li>
             <li className="list-unstyled">
-                <Link to="/cgu">Conditions générales d'utilisation</Link>
+                <Link onClick={()=>{this.props.handleClickOtherLink();}} to="/cgu">Conditions générales d'utilisation</Link>
             </li>
             <li className="list-unstyled">
-              <Link to="/charte">Charte de confidentialité</Link>
+              <Link onClick={()=>{this.props.handleClickOtherLink();}} to="/charte">Charte de confidentialité</Link>
             </li>
 
           </ul>

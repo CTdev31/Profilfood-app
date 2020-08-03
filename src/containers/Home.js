@@ -31,7 +31,7 @@ export default function Home() {
       <div className = "faq-appli">
       <div className="lander-2-Questions">
         <h1>Des réponses à toutes vos questions</h1>
-        <p>Pour maximiser votre apprentissage avec <span class="orange">ProfilFood</span>, plusieurs sections d'aide sont à votre diposition dans l'application.  <br/>
+        <p>Pour maximiser votre apprentissage avec <span className="orange">ProfilFood</span>, plusieurs sections d'aide sont à votre diposition dans l'application.  <br/>
         La <Link to="/faq">foire aux questions</Link> regroupant les questions les plus rencontrées est également là pour vous guider. <br/> Enfin, si une réponse vous manque, posez nous votre question et on y répondra.</p>
 
       </div>
@@ -49,8 +49,8 @@ export default function Home() {
 
       <div className = "recette-aliment">
         <div className="lander-3-aliment">
-        <h1>Des ingrédients <span class="orange">notés</span> pour <span class="orange">vous</span></h1>
-        <p>Chaque personne est <span class="orange">unique</span>, la nourriture de l'un est le poison de l'autre. Alors pour vous aidez à trouver les aliments qui vous corresponde, nous les avons notés selon plusieurs facteurs liés à votre profil.
+        <h1>Des ingrédients <span className="orange">notés</span> pour <span className="orange">vous</span></h1>
+        <p>Chaque personne est <span className="orange">unique</span>, la nourriture de l'un est le poison de l'autre. Alors pour vous aidez à trouver les aliments qui vous correspondent, nous les avons notés selon plusieurs facteurs liés à votre profil.
         <br/>Découvrez quels sont ceux qui s'adaptent le mieux à votre constitution !</p>
 
         <img className="left-img-aliment" src={ScreenshotAliment} alt = "Notation des aliments selon votre profil" />
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
 
         <div className="lander-4">
-          <h1>Des centaines de recettes <span class="orange">healthy</span> existantes</h1>
+          <h1>Des centaines de recettes <span className="orange">healthy</span> existantes</h1>
           <p>Créez ou retrouvez vos recettes favorites en bénéficiant d'alternatives saines pour remplacer les aliments trasformés.
           <br/> Filtrez les recettes, recherchez, planifiez, cuisinez ! Allez-vous opter pour une Recette sans gluten ? vegan ? végétarienne ? paléo ? sans sucre ? ... Faites vous plaisir !</p>
           <img className="left-img-aide" src={ScreenshotRecette} alt = "Liste des recettes existantes" />
@@ -70,7 +70,7 @@ export default function Home() {
       <div className="Download">
       <img className="center-logo" src={Logo} alt = "Logo de ProfilFood" />
 
-      <h1>Premiers pas avec ProfilFood</h1>
+      <h1>Optimisez vos repas avec ProfilFood</h1>
       <a href="https://play.google.com/store/apps/details?id=com.CTdev.profilfood" className="btnGoogleplay" role="button" aria-pressed="true"> <img  src={googlePlay} alt = "Google Play - ProfilFood" /></a>
       </div>
 

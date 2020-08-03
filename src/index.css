@@ -13,10 +13,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", serif;
 }
 
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+h2{
+  font-weight:lighter;
+  color: #E58204;
+
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  monospace;
 }
 
 select.form-control,
@@ -32,14 +41,13 @@ input[type=file] {
 
 .orange{
   color: #E58204;
-
 }
 
 .form-ajout_societe{
-float: right;
-margin-right: 20px;
-width: 45%;
-border: dashed red;
+  float: right;
+  margin-right: 20px;
+  width: 45%;
+  border: dashed red;
 }
 .client{
   float: left;
@@ -53,7 +61,6 @@ border: dashed red;
 }
 
 .div-center{
-
   text-align: center;
   width: 100%
 }
@@ -98,6 +105,18 @@ border: dashed red;
     padding-right: 6%;
 
   }
+  h1 {
+    font-size: 1.6em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (min-width:480px){
@@ -108,5 +127,17 @@ border: dashed red;
   body{
     padding-left: 0;
     padding-right: 0;
+  }
+  h1 {
+    font-size: 2.1em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  h3 {
+    font-size: 1.4em;
+  }
+  h4 {
+    font-size: 1.3em;
   }
 }

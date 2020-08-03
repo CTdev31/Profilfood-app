@@ -7,9 +7,9 @@ render(){
 return(
     <div className = "container">
       <form>
-        <div class="form-group">
+        <div className="form-group">
           <label for="exampleFormControlFile1">Transmettre un document</label>
-          <input type="file" class="form-control-file" id="exampleFormControlFile1"/>
+          <input type="file" className="form-control-file" id="exampleFormControlFile1"/>
         </div>
       </form>
     </div>

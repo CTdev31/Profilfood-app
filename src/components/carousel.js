@@ -31,7 +31,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Mangez enfin ce qui vous ressemble !</h1>
             <p>Découvrez votre profil pour établir votre carte d'identité alimentaire. Renseignez votre objectif et laissez nous vous proposer ce qui est le meilleur pour vous.</p>
-            <a href="#" className="btn btn-primary btn-lg color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a  href="/" className="btn btn-primary btn-lg color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -44,7 +44,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Optimisez votre alimentation pour de bon !</h1>
             <p>Indiquez vous même vos besoins alimentaires ou laissez l'application les calculer pour vous. Prenez du plaisir à manger, on s'occupe de votre progression !</p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -58,7 +58,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Apprenez à savoir qui vous êtes vraiment !</h1>
             <p>Répondez à près de 100 questions pour cerner toutes les facettes de votre profil. Morphologie, nature, métabolisme, ... Il y en a pour tous les goûts !</p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -72,7 +72,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Découvrez ce que les médecines alternatives dises sur vous.</h1>
             <p>Quels sont les points faibles et les forces de votre profil ? Optenez des conseils personnalisés provenant de la Naturopathie, de l'ayurvéda, ou encore de la médecine chinoise.</p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -86,7 +86,7 @@ export default class extends React.Component {
           <div className="lander">
           <h1>Invitez votre famille ou vos colocataires !</h1>
           <p>Créez ou invitez jusqu'à 8 comptes pour gagner du temps dans l'organisation de vos repas. Chaque profil est unique, comprenez pourquoi votre enfant n'est pas attiré par un groupe d'aliment.</p>
-          <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+          <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -100,7 +100,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Ajoutez les repas de votre famille avec facilité !</h1>
             <p>Ajoutez des aliments et des recettes existants ou bien créez les ! Gérer vous même vos proportions de vos plats, ou bien faites confiance à l'application pour les gérer à votre place.</p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -115,7 +115,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Renseignez vos repas pour accéder aux notes nutritionnelles</h1>
             <p>Découvrez le bilan nutritionnel de chaque repas, et de votre journée. Vos repas sont-ils équilibrés ? Sont-ils adaptés à votre profil et à votre objectif ? On vous dit tout !</p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -129,7 +129,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Visualisez le bilan nutritionnel de vos repas !</h1>
             <p>Qu'il s'agisse de conseils généraux ou individuel, découvrez comment améliorer votre assiète. <br/> kCal, Glucide, Lipide, Protéine, Fibre, Charge glycémique, aliments naturels, type de cuisson, texture, saison,... Rien n'est noté au hasard ! </p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -143,7 +143,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Plannifiez vos menus avant d'aller faire vos courses !</h1>
             <p>Anticipez vos repas en profitant d'un planning dynamique et d'une liste de courses qui se génére ... toute seule ! </p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>
@@ -157,7 +157,7 @@ export default class extends React.Component {
           <div className="lander">
             <h1>Faites vos courses en toute simplicité !</h1>
             <p>Avec ou sans connexion internet, cochez, décochez, ajoutez, supprimez autant d'articles que vous souhaitez. Gagnez du temps pour mieux cuisiner !</p>
-            <a href="#" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
+            <a href="/" className="btn btn-primary btn-lg  color-E58204" role="button" aria-pressed="true">En savoir plus</a>
 
 
           </div>

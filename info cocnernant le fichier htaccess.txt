@@ -1,0 +1,4 @@
+Fichier permettant de redirigé l'utilisateur vers la page html souhaitée et évite l'erreur 404 not found
+Ex : si on raffraichie la page ou si ou tape l'url des cgu, on tombe désormais sur la bonne page si ce fichier est présent à la racine du fichier www
+
+Fichier de configuration de serveur Apache
